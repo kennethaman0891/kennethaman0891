@@ -32,6 +32,11 @@
 
   <br /><br />
 
+  <!-- Systems Architecture & Language Footprint Card -->
+  <img src="assets/metrics-card.svg" alt="Systems Architecture & Language Footprint — TypeScript 38%, Python 24%, Rust 16%, Swift 12%, PHP 10%" width="100%" />
+
+  <br /><br />
+
   <!-- Footer Banner -->
   <a href="https://github.com/kennethaman0891">
     <img src="assets/footer-banner.svg" alt="github.com/kennethaman0891 · built the same way I build everything — spec → build → ship" width="100%" />

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 186" width="100%">
+  <defs>
+    <linearGradient id="mBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0f1726"/>
+    </linearGradient>
+    <linearGradient id="mBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21304a"/>
+      <stop offset="100%" stop-color="#1b283d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Card -->
+  <rect x="2" y="2" width="876" height="182" rx="14" fill="url(#mBg)" stroke="url(#mBorder)" stroke-width="1.5"/>
+
+  <!-- Section Header -->
+  <text x="32" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#3fb950">// telemetry &amp; architecture</text>
+  <text x="32" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Systems Architecture &amp; Language Footprint</text>
+
+  <!-- Multi-Segment Language Progress Bar -->
+  <g transform="translate(32, 82)">
+    <!-- Background Track -->
+    <rect x="0" y="0" width="816" height="12" rx="6" fill="#161f31"/>
+    <!-- TypeScript 38% (310px) -->
+    <rect x="0" y="0" width="310" height="12" rx="6" fill="#3178c6"/>
+    <!-- Python 24% (196px) -->
+    <rect x="312" y="0" width="196" height="12" fill="#3572A5"/>
+    <!-- Rust 16% (130px) -->
+    <rect x="510" y="0" width="130" height="12" fill="#dea584"/>
+    <!-- Swift 12% (98px) -->
+    <rect x="642" y="0" width="98" height="12" fill="#F05138"/>
+    <!-- PHP 10% (76px) -->
+    <rect x="742" y="0" width="74" height="12" rx="6" fill="#777BB4"/>
+  </g>
+
+  <!-- Language Legend Row -->
+  <g transform="translate(32, 118)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#c5d0e0">
+    <circle cx="6" cy="-4" r="5" fill="#3178c6"/>
+    <text x="18" y="0"><tspan font-weight="600" fill="#ffffff">TypeScript / React 19</tspan> <tspan fill="#6b809e">38%</tspan></text>
+
+    <circle cx="196" cy="-4" r="5" fill="#3572A5"/>
+    <text x="208" y="0"><tspan font-weight="600" fill="#ffffff">Python / Django</tspan> <tspan fill="#6b809e">24%</tspan></text>
+
+    <circle cx="356" cy="-4" r="5" fill="#dea584"/>
+    <text x="368" y="0"><tspan font-weight="600" fill="#ffffff">Rust / Tauri 2</tspan> <tspan fill="#6b809e">16%</tspan></text>
+
+    <circle cx="496" cy="-4" r="5" fill="#F05138"/>
+    <text x="508" y="0"><tspan font-weight="600" fill="#ffffff">Swift 6 / CoreML</tspan> <tspan fill="#6b809e">12%</tspan></text>
+
+    <circle cx="654" cy="-4" r="5" fill="#777BB4"/>
+    <text x="666" y="0"><tspan font-weight="600" fill="#ffffff">PHP / Multi-Tenant</tspan> <tspan fill="#6b809e">10%</tspan></text>
+  </g>
+
+  <!-- Key Engineering Guarantees Row -->
+  <g transform="translate(32, 142)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8b9bb4">
+    <rect x="0" y="0" width="256" height="26" rx="6" fill="#131c2e" stroke="#22324f"/>
+    <text x="128" y="17" text-anchor="middle">runtime: <tspan fill="#3fb950" font-weight="600">native desktop + local LLM</tspan></text>
+
+    <rect x="272" y="0" width="272" height="26" rx="6" fill="#131c2e" stroke="#22324f"/>
+    <text x="408" y="17" text-anchor="middle">targets: <tspan fill="#a8c7fa" font-weight="600">macOS · Windows · Linux · Web</tspan></text>
+
+    <rect x="560" y="0" width="256" height="26" rx="6" fill="#131c2e" stroke="#22324f"/>
+    <text x="688" y="17" text-anchor="middle">privacy: <tspan fill="#58a6ff" font-weight="600">100% on-device execution</tspan></text>
+  </g>
+</svg>
