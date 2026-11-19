@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0f1726"/>
+    </linearGradient>
+    <linearGradient id="aboutBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21304a"/>
+      <stop offset="100%" stop-color="#1b283d"/>
+    </linearGradient>
+    <linearGradient id="pillarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#131c2e"/>
+      <stop offset="100%" stop-color="#0f1624"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Card -->
+  <rect x="2" y="2" width="876" height="336" rx="14" fill="url(#aboutBg)" stroke="url(#aboutBorder)" stroke-width="1.5"/>
+
+  <!-- Section Header -->
+  <text x="32" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#3fb950">// about</text>
+  <text x="32" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">What I Do</text>
+
+  <!-- Main Narrative -->
+  <text x="32" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#c5d0e0">
+    I'm a full-stack engineer working across <tspan fill="#ffffff" font-weight="600">Django, PHP, TypeScript, and Rust</tspan> — building production CMS platforms,
+  </text>
+  <text x="32" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#c5d0e0">
+    multi-tenant admin panels, and native desktop developer workspaces that orchestrate distributed AI coding agents.
+  </text>
+
+  <!-- 3 Pillars Grid -->
+  <!-- Pillar 1 -->
+  <g transform="translate(32, 140)">
+    <rect x="0" y="0" width="260" height="168" rx="12" fill="url(#pillarBg)" stroke="#243554" stroke-width="1"/>
+    <rect x="18" y="18" width="32" height="32" rx="8" fill="#162844" stroke="#2c4c7e" stroke-width="1"/>
+    <text x="34" y="39" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="14" fill="#58a6ff" font-weight="700">&gt;_</text>
+    <text x="18" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Multi-Agent Orchestration</text>
+    <text x="18" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">Cross-platform desktop command</text>
+    <text x="18" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">centers that coordinate</text>
+    <text x="18" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#a8c7fa" font-weight="600">Claude Code, Antigravity &amp; OpenCode</text>
+    <text x="18" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">across parallel terminals.</text>
+  </g>
+
+  <!-- Pillar 2 -->
+  <g transform="translate(310, 140)">
+    <rect x="0" y="0" width="260" height="168" rx="12" fill="url(#pillarBg)" stroke="#243554" stroke-width="1"/>
+    <rect x="18" y="18" width="32" height="32" rx="8" fill="#142b27" stroke="#235c4b" stroke-width="1"/>
+    <text x="34" y="39" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="14" fill="#3fb950" font-weight="700">AI</text>
+    <text x="18" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Local-First AI Tooling</text>
+    <text x="18" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">Privacy-first applications built on</text>
+    <text x="18" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#a8c7fa" font-weight="600">on-device Whisper &amp; local Ollama</text>
+    <text x="18" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">LLMs — zero cloud lock-in, zero</text>
+    <text x="18" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">telemetry, native performance.</text>
+  </g>
+
+  <!-- Pillar 3 -->
+  <g transform="translate(588, 140)">
+    <rect x="0" y="0" width="260" height="168" rx="12" fill="url(#pillarBg)" stroke="#243554" stroke-width="1"/>
+    <rect x="18" y="18" width="32" height="32" rx="8" fill="#162844" stroke="#2c4c7e" stroke-width="1"/>
+    <text x="34" y="39" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, monospace" font-size="14" fill="#a8c7fa" font-weight="700">{}</text>
+    <text x="18" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Production Systems &amp; CMS</text>
+    <text x="18" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">End-to-end multi-tenant platforms,</text>
+    <text x="18" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">automated portals, and bridges built</text>
+    <text x="18" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#a8c7fa" font-weight="600">with Django, PHP, Tauri &amp; React</text>
+    <text x="18" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">that hold up in production.</text>
+  </g>
+</svg>
